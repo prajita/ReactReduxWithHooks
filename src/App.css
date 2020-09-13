@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.bck{
+  background-image: url("./images/island.jpg") ;
+}
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +17,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./images/island.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +29,29 @@
   color: white;
 }
 
+.counter{
+  font-size: 60px;
+  padding-top: 10%;
+}
+
+
 .App-link {
-  color: #61dafb;
+  color: #020c0f;
+  font-size: 40px;
+  font-family: bold;
+}
+
+button{
+  background-color: whitesmoke;
+  border: none;
+  color: darkblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
